@@ -17,3 +17,5 @@ Images, including this extension's logo, are from [iconmonstr](https://iconmonst
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)
+
+The code is open source and can be found at https://github.com/tagawa/asana-tweaks
