@@ -1,0 +1,112 @@
+/* Style the additional inbox button and notification badge */
+.CircularButton-inboxButton--hasNewNotifications::after {
+  background: #f2a100;
+  border-radius: 50%;
+  display: block;
+  height: 8px;
+  width: 8px;
+  content: "";
+  position: absolute;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+
+.TopbarPageHeaderGlobalActions .TopbarPageHeaderGlobalActions-omnibutton {
+  margin: 0 10px 0 20px;
+}
+
+.CircularButton, .Omnibutton {
+  margin: 0 10px;
+}
+
+.TopbarPageHeaderGlobalActions-settingsMenuButton {
+  margin-left: 10px;
+}
+
+
+/* Fix the window width to work on narrower screens */
+@media (max-width: 1166px) {
+  #asana_main {
+    min-width: 800px;
+  }
+  
+  .sidebar-mountNode {
+    width: 200px;
+  }
+
+  .PotListPage-gridPane, .InboxPageView-inboxPane, .SearchListPageView-gridPane {
+    flex: 0 1 950px;
+    min-width: 355px;
+    margin-left: 0;
+  }
+
+  .PotListPage-detailsPane, .InboxPageView-detailsPane, .SearchListPageView-detailsPane {
+    flex: 0 1 610px;
+    margin-left: 15px;
+    min-width: 430px;
+  }
+  
+  .InboxPageView-inboxPane {
+    margin-left: 0;
+  }
+  
+  .SingleTaskPaneToolbar-button {
+    margin-right: 0px;
+  }
+
+  .SingleTaskPaneToolbar, .MultiTaskPaneToolbar, .SingleTaskPanePlaceholder-toolbar {
+    padding-right: 30px;
+  }
+  
+  .SingleTaskPane-body, .SingleTaskPanePlaceholder {
+    padding: 0 30px;
+    margin: 0 -15px;
+  }
+  .SubtaskTaskRow-completionStatus {
+    margin-left: 0;
+  }
+  .dragHandle {
+    padding-left: 10px;
+  }
+  
+  .TaskMessageBanner {
+    margin: 0px -15px;
+  }
+  
+  .TaskStoryFeed-blockStory {
+    margin-right: -15px;
+  }
+  
+  .ItemRow, .FakeSearchGridRow, .PotGridBodyPlaceholder-itemRow, .inboxThreadView {
+    padding-left: 15px;
+  }
+  
+  .SubtaskTaskRow-detailsButton {
+    padding-right: 15px;
+  }
+
+  .GridHeader, .PotGridPlaceholder-gridHeader {
+    padding-left: 15px;
+  }
+  
+  .FeedBlockStory {
+      xpadding: 10px 0;
+  }
+  
+  .TaskStoryFeed-blockStory {
+      xmargin: 0 0;
+  }
+  
+  .CommentComposer, .SingleTaskPanePlaceholder-commentComposer, .FollowersBar {
+    padding: 10px 15px;
+  }
+  
+  /* Inbox "move to archive" button */
+  .inboxThreadView-archiveButton, .inboxThreadView-unarchiveButton {
+    width: 40px;
+  }
+
+  .PaneView .CircularButton, .PaneView .Omnibutton {
+    margin: 0;
+  }
+}
