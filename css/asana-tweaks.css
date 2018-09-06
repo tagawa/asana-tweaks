@@ -33,15 +33,18 @@
   .sidebar-mountNode {
     width: 200px;
   }
+  .sidebar-mountNode.is-collapsed {
+    margin-left: -200px;
+  }
 
   .PotListPage-gridPane, .InboxPageView-inboxPane, .SearchListPageView-gridPane {
-    flex: 0 1 950px;
+    flex: 0 1 1000px;
     min-width: 355px;
     margin-left: 0;
   }
 
   .PotListPage-detailsPane, .InboxPageView-detailsPane, .SearchListPageView-detailsPane {
-    flex: 0 1 610px;
+    flex: 0 1 1000px;
     margin-left: 15px;
     min-width: 430px;
   }
