@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Asana Tweaks",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Adds a few small enhancements to the Asana project management system.",
+    "description": "Description of the extension."
+  },
+
+  "contextMenuLabel": {
+    "message": "Insert OS/browser details",
+    "description": "Label of the context menu item."
+  }
+}

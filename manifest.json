@@ -1,0 +1,32 @@
+{
+    "name": "Asana Tweaks",
+    "description": "Adds a few small enhancements to the Asana project management system.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "default_locale": "en",
+    
+    "icons": {
+        "32": "img/asana-tweaks_32.png",
+        "48": "img/asana-tweaks_48.png",
+        "64": "img/asana-tweaks_64.png",
+        "128": "img/asana-tweaks_128.png"
+    },
+    
+    "permissions": [
+        "*://app.asana.com/*",
+        "contextMenus",
+        "tabs"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["*://app.asana.com/*"],
+            "js": ["js/asana-tweaks.js"],
+            "css": ["css/asana-tweaks.css"]
+        }
+    ],
+
+    "background": {
+        "scripts": ["js/background.js"]
+    }
+}
