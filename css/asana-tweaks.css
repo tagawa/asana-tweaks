@@ -1,3 +1,8 @@
+/* Hide the "Upgrade" button in the top bar */
+.TopbarPageHeaderGlobalActions .TopbarContingentUpgradeLink {
+  display: none;
+}
+
 /* Style the additional inbox button and notification badge */
 .CircularButton-inboxButton--hasNewNotifications::after {
   background: #f2a100;
