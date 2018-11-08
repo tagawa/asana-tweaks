@@ -1,5 +1,5 @@
 /* Hide the "Upgrade" button in the top bar */
-.TopbarPageHeaderGlobalActions .TopbarContingentUpgradeLink {
+.TopbarPageHeaderGlobalActions .TopbarPageHeaderGlobalActions-upgradeButton {
   display: none;
 }
 
