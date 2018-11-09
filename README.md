@@ -4,7 +4,7 @@ A browser extension to add small enhancements to the Asana project management sy
 
 ## Current Features
 
-* Adds an "Inbox" link to the top right toolbar, so you don't need to open the sidebar.
+* Adds "Inbox" and "My Tasks" buttons to the top right toolbar, so you don't need to open the sidebar.
 * Hides the "Upgrade" button in the top toolbar.
 * Shortens the "New task" button to just a plus sign (+).
 * Fits better in narrower windows, for example if you have the browser sidebar open.
