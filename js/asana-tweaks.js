@@ -7,6 +7,8 @@ function doTweaks() {
   var notificationsButton = document.querySelector('.SidebarTopNavLinks-notificationsButton');
   // Top bar buttons:
   var globalActions = document.querySelector('.TopbarPageHeaderGlobalActions');
+  // "New task" button in top bar:
+  var taskButton = document.querySelector('.TopbarPageHeaderGlobalActions-omnibutton--newOmniButton');
   
   // When everything's ready, start manipulating!
   if (sidebarHeaders.length > 0 && !!notificationsButton && globalActions.childNodes.length > 0 && globalActions.childNodes[0].className.indexOf('Placeholder') < 0) {
@@ -16,6 +18,13 @@ function doTweaks() {
   }
   
   
+  /*
+   * Remove the text in the "new task" button
+   */
+  var tmpHTML = taskButton.innerHTML.replace('New', '');
+  taskButton.innerHTML = tmpHTML;
+
+
   /*
    * In the sidebar, change the "Reports" header.
    */

@@ -1,7 +1,7 @@
 {
     "name": "Asana Tweaks",
     "description": "Adds a few small enhancements to the Asana project management system.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "manifest_version": 2,
     "default_locale": "en",
     
