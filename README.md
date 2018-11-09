@@ -14,7 +14,7 @@ A browser extension to add small enhancements to the Asana project management sy
 
 ## Credits
 
-Images, including this extension's logo, are from [iconmonstr](https://iconmonstr.com/) — a great source of many royalty-free icons.
+This extension's logo is from [iconmonstr](https://iconmonstr.com/) — a great source of many royalty-free icons.
 
 ## License
 
