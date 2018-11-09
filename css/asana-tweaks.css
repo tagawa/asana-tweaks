@@ -1,9 +1,26 @@
-/* Hide the "Upgrade" button in the top bar */
+/* Hide the "Upgrade" button in the top bar. */
 .TopbarPageHeaderGlobalActions .TopbarPageHeaderGlobalActions-upgradeButton {
   display: none;
 }
 
-/* Style the additional inbox button and notification badge */
+/* Make "New" button smaller with no text, and evenly space the neighbouring buttons. */
+.TopbarPageHeaderGlobalActions .Button.TopbarPageHeaderGlobalActions-omnibutton--newOmniButton {
+  border-radius: 50%;
+  margin: 0 10px 0 20px;
+  min-width: 30px;
+  width: 30px;
+}
+
+.Omnibutton--withText .Omnibutton-plusIcon {
+  margin-right: 0px;
+}
+
+.TopbarPageHeaderGlobalActions-settingsMenuButton.TopbarPageHeaderGlobalActions-settingsMenuButton--newOmniButton {
+  margin-left: 10px;
+}
+
+
+/* Style the additional inbox button and notification badge. */
 .CircularButton-inboxButton--hasNewNotifications::after {
   background: #f2a100;
   border-radius: 50%;
@@ -29,7 +46,7 @@
 }
 
 
-/* Fix the window width to work on narrower screens */
+/* Fix the window width to work on narrower screens. */
 @media (max-width: 1166px) {
   #asana_main {
     min-width: 800px;
@@ -109,7 +126,7 @@
     padding: 10px 15px;
   }
   
-  /* Inbox "move to archive" button */
+  /* Inbox "move to archive" button. */
   .inboxThreadView-archiveButton, .inboxThreadView-unarchiveButton {
     width: 40px;
   }
