@@ -4,18 +4,18 @@
 }
 
 /* Make "New" button smaller with no text, and evenly space the neighbouring buttons. */
-.TopbarPageHeaderGlobalActions .Button.TopbarPageHeaderGlobalActions-omnibutton--newOmniButton {
+.TopbarPageHeaderGlobalActions .Button.TopbarPageHeaderGlobalActions-omnibutton {
   border-radius: 50%;
   margin: 0 10px 0 20px;
   min-width: 30px;
   width: 30px;
 }
 
-.Omnibutton--withText .Omnibutton-plusIcon {
+.Omnibutton-plusIcon {
   margin-right: 0px;
 }
 
-.TopbarPageHeaderGlobalActions-settingsMenuButton.TopbarPageHeaderGlobalActions-settingsMenuButton--newOmniButton {
+.TopbarPageHeaderGlobalActions-settingsMenuButton.TopbarPageHeaderGlobalActions-settingsMenuButton {
   margin-left: 10px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .TopbarPageHeaderGlobalActions .TopbarPageHeaderGlobalActions-omnibutton,
-.TopbarPageHeaderGlobalActions .Button.TopbarPageHeaderGlobalActions-omnibutton--newOmniButton {
+.TopbarPageHeaderGlobalActions .Button.TopbarPageHeaderGlobalActions-omnibutton {
   margin: 0 8px 0 16px;
 }
 
@@ -117,14 +117,6 @@
 
   .GridHeader, .PotGridPlaceholder-gridHeader {
     padding-left: 15px;
-  }
-  
-  .FeedBlockStory {
-      xpadding: 10px 0;
-  }
-  
-  .TaskStoryFeed-blockStory {
-      xmargin: 0 0;
   }
   
   .CommentComposer, .SingleTaskPanePlaceholder-commentComposer, .FollowersBar {
